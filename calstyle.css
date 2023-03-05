@@ -1,0 +1,115 @@
+.frame{
+    
+        width: 100%;
+        height: 100vh;
+        background-color: #d4e8ed;
+        display:flex;
+        align-items: center;
+        padding-left: 450px;
+        
+    }
+    /* .cal{
+        align-items: center;
+        
+    } */
+
+.calculator{
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 20px;
+   border-radius: 10px;
+   background-color: #595959;
+   
+}
+
+#output {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  height: 80px;
+  font-size: 48px;
+  border-radius: 5px;
+  text-align: left;
+  padding: 0px 0px 0px 0px;
+  box-shadow: 0px 0px 30px -5px #fff;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+#btn {
+  margin-top: 15px;
+}
+.button {
+  color: #fff;
+  text-align: center;
+  line-height: 70px;
+  display: inline-block;
+  background-color: #595959;
+  border: 1px solid #33ccff;
+  height: 70px;
+  width: 100px;
+  font-size: 36px;
+  margin-right: -4.6px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #0066ff;
+  box-shadow: 0px 0px 30px 0px #fff;
+}
+.button:active {
+  background-color: #80b3ff;
+  box-shadow: 0px 0px 30px 0px #000;
+}
+.number {
+  background-color: #404040;
+}
+.number:active {
+  background-color: #80b3ff;
+  box-shadow: 0px 0px 30px 0px #000;
+}
+#zero {
+  width: 150px;
+}
+#decimal {
+  font-weight: bold;
+}
+#equals {
+  background-color: black;
+  width: 146px;
+}
+/* for id we use # */
+#equals:hover {
+  background-color: #6ae91f;
+  color:black ;
+  box-shadow: 0px 0px 30px -5px #fff;
+}
+#backspace {
+  background-color:black;
+}
+#backspace:hover {
+  background-color: #6ae91f;
+}
+#backspace:active {
+  background-color: #6ae91f;
+  box-shadow: 0px 0px 30px 0px #000;
+}
+#clear {
+  background-color: #262626;
+}
+#clear:hover {
+  background-color: #6ae91f;
+}
+#clear:active {
+  background-color: #6ae91f;
+  box-shadow: 0px 0px 30px 0px #000;
+}
+#radians, #degrees {
+    background-color: #595959;
+  width: 195px;
+}
+#radians:hover {
+  background-color: #6ae91f;
+}
+#degrees:hover {
+  background-color: #6ae91f;
+}
